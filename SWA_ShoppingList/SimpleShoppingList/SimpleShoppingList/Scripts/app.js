@@ -43,7 +43,7 @@ function drawItems() {
 function deleteItem(index) {
 	currentList.items.splice(index, 1);  //remove the item
 	drawItems();                         // see the result
-}
+	}
 
 function checkItem(index) {
 	if ($("#item_" + index).hasClass("checked")) {     //if it is checked, when you push again C
