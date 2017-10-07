@@ -1,4 +1,4 @@
-﻿
+﻿//simple shopping list
 let currentList = {};
 
 function createShoppingList() {
@@ -57,3 +57,6 @@ function checkItem(index) {
 $(document).ready(function () {
 	console.info("ready");
 });
+
+
+//categorieas
