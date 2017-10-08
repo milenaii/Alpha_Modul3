@@ -19,10 +19,19 @@
 	<div class="container">
 		<header>
 			<nav>
-				<!--<a href="#"><h2>Shopping in ebag</h2></a>-->
-				<a href="https://telerikacademy.com/" title="telerik"><h3>Shopping in ebag</h3></a>
+				<!--<ul>-->
+				<a href="https://www.ebag.bg/" title="ebag"><h3>Shopping in ebag</h3></a>
+
+				<audio controls class=" audio">
+					<source src="Veg.ogg" type="audio/ogg">
+					<source src="Veg.mp3" type="audio/mpeg">
+				</audio>
+					<!--</ul>-->
 			</nav>
 			<a><h1>Create Your New Shopping List</h1></a>
+
+
+			
 
 		</header>
 
@@ -44,20 +53,7 @@
 					<li><span class="context-menu-eleven" padding:5px;">Others</span></li>
 
 				</ul>
-
-				<!--<ul>
-					<li>Fruits</li>
-					<li>Vegetables</li>
-					<li>Bread</li>
-					<li>Meat</li>
-					<li>Sausages</li>
-					<li>Milk Product</li>
-					<li>Nuts</li>
-					<li>Beverages</li>
-					<li>Sweets</li>
-					<li>Coffee and Tea</li>
-				</ul>-->
-
+								
 			</aside>
 
 			<section class="main">
@@ -65,16 +61,21 @@
 				<p>
 					<div id="createListDiv">
 						<!--this is our first vew-->
-						<h1> Enter your Shopping List Name</h1>
+						<h1>Enter your Shopping List Name</h1>
 						<input type="text" id="shoppingListName" placeholder="New List" />
-						<button onclick="createShoppingList()">Create</button>
+						<button onclick="createShoppingList()">Create List</button>
 					</div>                                                           <!--to here-->
 					<div id="shoppingListDiv" style="display: none">
 						<!--this is our second vew-->
 						<h1 id="shoppingListTitle"> New List </h1>
 						<input id="newItemName" type="text" placeholder="New Item" />
-						<button onclick="addItem()">Add</button>
+						<button onclick="addItem()">Add Product</button>
 						<ul id="shoppingListItems">
+
+							<!--<li><div class="count"><button>Item A</button></div>
+							<div><button>Item B</button></div>
+							<div><button>Item B</button></div></li>-->
+
 							<li>Salad<button>D</button><button>C</button></li>
 							<li>Milk<button>D</button><button>C</button></li>
 							<li>Tomatoes<button>D</button><button>C</button></li>
@@ -87,16 +88,17 @@
 			<aside class="sidebarRight">
 				<h2>Receptions</h2>
 				<ul>
-					<li>Fruits</li>
-					<li>Vegetables</li>
-					<li>Bread</li>
-					<li>Meat</li>
-					<li>Sausages</li>
-					<li>Milk Product</li>
-					<li>Nuts</li>
-					<li>Beverages</li>
-					<li>Sweets</li>
-					<li>Coffee and Tea</li>
+					<li><a href="https://www.bbcgoodfood.com/recipes/8835/mexican-soup-with-chicken" title="mexican">Chicken Soup</a></li>
+					<li><a href="https://www.bbcgoodfood.com/recipes/8835/mexican-soup-with-chicken" title="mexican">Mexican Soup</a></li>
+					<li><a href="https://www.bbcgoodfood.com/recipes/1849/pork-lemon-and-potato-kebabs" title="pork">Pork and Potato Kebabs</a></li>
+					<li><a href="https://www.bbcgoodfood.com/recipes/marmalade-pork" title="MarmaladePork">Marmalade Pork</a></li>
+					<li><a href="https://www.bbcgoodfood.com/recipes/12227/greek-salad" title="GrSalad">Greek Salad</a></li>
+					<li><a href="https://www.bbcgoodfood.com/recipes/cucumber-salad" title="CucSalad">Cucumber Salad</a></li>
+					<li><a href="https://www.bbcgoodfood.com/recipes/693641/avocado-salad" title="avok">Avokado Salad</a></li>
+					<li><a href="https://www.bbcgoodfood.com/recipes/1403641/chocolate-and-banana-cake" title="ChocCake">Chocolate and Banana Cake</a></li>
+					<li><a href="https://www.bbcgoodfood.com/recipes/10692/little-lemon-meringue-pies" title="Pie">Lemon Pie</a></li>
+					<li><a href="https://www.bbcgoodfood.com/recipes/11289/white-chocolate-berry-cheesecake" title="CounSalad">White Chocolate Berry Cake</a></li>
+					<li><a href="https://www.bbcgoodfood.com/recipes/1454/creamy-rice-with-double-apricots" title="CounSalad">Creamy Rice</a></li>
 				</ul>
 			</aside>
 
