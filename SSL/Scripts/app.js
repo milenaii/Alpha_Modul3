@@ -62,7 +62,7 @@ $(document).ready(function () {
 });
 
 
-//categorieas
+//categories
 
 $(function () {
 	$.contextMenu({
@@ -70,24 +70,24 @@ $(function () {
 		callback: function (key, options) {
 			let m = "clicked: " + key;
 
-			window.console && console.log(m) || alert(m);
+			//window.console && console.log(m) || alert(m);
 
 			//function addItemFromCategories() {
-				let newItem = {};   //create object
-				newItem.name = key;
-				currentList.items.push(newItem);
-				console.info(currentList);
+			let newItem = {};   //create object
+			newItem.name = key;
+			currentList.items.push(newItem);
+			console.info(currentList);
 
-				drawItems();
+			drawItems();
 			//}
 
 		},
 		items: {
-			"potatoes": { name: "Potatoes" },
-			"tomatoes": { name: "Tomatoes" },
-			"cucumber": { name: "Cucumber" },
-			"peppers": { name: "Peppers" },
-			"potatoes": { name: "Potatoes" },
+			"Potatoes": { name: "Potatoes" },
+			"Tomatoes": { name: "Tomatoes" },
+			"Cucumber": { name: "Cucumber" },
+			"Peppers": { name: "Peppers" },
+			"Potatoes": { name: "Potatoes" },
 			//"sep1": "---------",
 			//"quit": {
 			//	name: "Quit", icon: function () {
@@ -96,10 +96,10 @@ $(function () {
 			//}
 		}
 	});
-	
-	$('.context-menu-one').on('click', function (e) {
-		console.log('clicked', this);
-	})
+
+	//$('.context-menu-one').on('click', function (e) {
+	//	console.log('clicked', this);
+	//})
 });
 
 $(function () {
@@ -107,19 +107,23 @@ $(function () {
 		selector: '.context-menu-two',
 		callback: function (key, options) {
 			let m = "clicked: " + key;
-			window.console && console.log(m) || alert(m);
+
+			let newItem = {};   //create object
+			newItem.name = key;
+			currentList.items.push(newItem);
+			console.info(currentList);
+
+			drawItems();
+
 		},
 		items: {
-			"apples": { name: "Apples" },
-			"pears": { name: "Pears" },
-			"bananas": { name: "Bananas" },
-			"oranges": { name: "Oranges" },
-			"grapes": { name: "Grapes" },
+			"Apples": { name: "Apples" },
+			"Pears": { name: "Pears" },
+			"Bananas": { name: "Bananas" },
+			"Oranges": { name: "Oranges" },
+			"Grapes": { name: "Grapes" },
 		}
 	});
-	$('.context-menu-one').on('click', function (e) {
-		console.log('clicked', this);
-	})
 });
 
 $(function () {
@@ -127,18 +131,23 @@ $(function () {
 		selector: '.context-menu-three',
 		callback: function (key, options) {
 			let m = "clicked: " + key;
-			window.console && console.log(m) || alert(m);
+
+			let newItem = {};   //create object
+			newItem.name = key;
+			currentList.items.push(newItem);
+			console.info(currentList);
+
+			drawItems();
+
 		},
 		items: {
-			"whole": { name: "Whole grain bread" },
-			"wheat": { name: "Wheat bread" },
-			"corn": { name: "Cornbread" },
-			"dough": { name: "Dough" },
+			"Whole Grain Bread": { name: "Whole Grain Bread" },
+			"CornBread": { name: "CornBread" },
+			"Wheat Bread": { name: "Wheat Bread" },
+			"Dough": { name: "Dough" },
+
 		}
 	});
-	$('.context-menu-one').on('click', function (e) {
-		console.log('clicked', this);
-	})
 });
 
 $(function () {
@@ -146,16 +155,198 @@ $(function () {
 		selector: '.context-menu-four',
 		callback: function (key, options) {
 			let m = "clicked: " + key;
-			window.console && console.log(m) || alert(m);
+
+			let newItem = {};   //create object
+			newItem.name = key;
+			currentList.items.push(newItem);
+			console.info(currentList);
+
+			drawItems();
+
 		},
 		items: {
-			"pork": { name: "Pork" },
-			"chicken": { name: "Chicken" },
-			"veal": { name: "Veal" },
-			"mince": { name: "Mince" },
+			"Chicken": { name: "Chicken" },
+			"Pork": { name: "Pork" },
+			"Veal": { name: "Veal" },
+			"Mince": { name: "Mince" },
 		}
 	});
-	$('.context-menu-one').on('click', function (e) {
-		console.log('clicked', this);
-	})
+});
+
+
+$(function () {
+	$.contextMenu({
+		selector: '.context-menu-five',
+		callback: function (key, options) {
+			let m = "clicked: " + key;
+
+			let newItem = {};   //create object
+			newItem.name = key;
+			currentList.items.push(newItem);
+			console.info(currentList);
+
+			drawItems();
+
+		},
+		items: {
+			"Frankfurters": { name: "Frankfurters" },
+			"Fillet": { name: "Fillet" },
+			"Ham": { name: "Ham" },
+			"Bacon": { name: "Bacon" },
+
+		}
+	});
+});
+$(function () {
+	$.contextMenu({
+		selector: '.context-menu-six',
+		callback: function (key, options) {
+			let m = "clicked: " + key;
+
+			let newItem = {};   //create object
+			newItem.name = key;
+			currentList.items.push(newItem);
+			console.info(currentList);
+
+			drawItems();
+
+		},
+		items: {
+			"Milk": { name: "Milk" },
+			"Yoghurt": { name: "Yoghurt" },
+			"Cheese": { name: "Cheese" },
+			"Yellow Cheese": { name: "Yellow Cheese" },
+
+		}
+	});
+});
+$(function () {
+	$.contextMenu({
+		selector: '.context-menu-seven',
+		callback: function (key, options) {
+			let m = "clicked: " + key;
+
+			let newItem = {};   //create object
+			newItem.name = key;
+			currentList.items.push(newItem);
+			console.info(currentList);
+
+			drawItems();
+
+		},
+		items: {
+			"Almonds": { name: "Almonds" },
+			"Peanuts": { name: "Peanuts" },
+			"Sunflower seeds": { name: "Sunflower seeds" },
+			"Hazelnuts": { name: "Hazelnuts" },
+		}
+	});
+});
+$(function () {
+	$.contextMenu({
+		selector: '.context-menu-eight',
+		callback: function (key, options) {
+			let m = "clicked: " + key;
+
+			let newItem = {};   //create object
+			newItem.name = key;
+			currentList.items.push(newItem);
+			console.info(currentList);
+
+			drawItems();
+
+		},
+		items: {
+			"Brandy": { name: "Brandy" },
+			"Wine": { name: "Wine" },
+			"Beer": { name: "Beer" },
+			"Gin": { name: "Gin" },
+			"Vodka": { name: "Vodka" },
+		}
+	});
+});
+$(function () {
+	$.contextMenu({
+		selector: '.context-menu-nine',
+		callback: function (key, options) {
+			let m = "clicked: " + key;
+
+			let newItem = {};   //create object
+			newItem.name = key;
+			currentList.items.push(newItem);
+			console.info(currentList);
+
+			drawItems();
+
+		},
+		items: {
+			"Coke": { name: "Coke" },
+			"Fanta": { name: "Fanta" },
+			"Sprite": { name: "Sprite" },
+		}
+	});
+});
+$(function () {
+	$.contextMenu({
+		selector: '.context-menu-ten',
+		callback: function (key, options) {
+			let m = "clicked: " + key;
+
+			let newItem = {};   //create object
+			newItem.name = key;
+			currentList.items.push(newItem);
+			console.info(currentList);
+
+			drawItems();
+
+		},
+		items: {
+			"Wafer": { name: "Wafer" },
+			"Chocolate": { name: "Chocolate" },
+			"Biscuits": { name: "Biscuits" },
+		}
+	});
+});
+$(function () {
+	$.contextMenu({
+		selector: '.context-menu-eleven',
+		callback: function (key, options) {
+			let m = "clicked: " + key;
+
+			let newItem = {};   //create object
+			newItem.name = key;
+			currentList.items.push(newItem);
+			console.info(currentList);
+
+			drawItems();
+
+		},
+		items: {
+			"Herbal Tea": { name: "Herbal Tea" },
+			"Black Tea": { name: "Black Tea" },
+			"Coffee": { name: "Coffee" },
+			"3 in 1": { name: "3 in 1" },
+		}
+	});
+});
+
+$(function () {
+	$.contextMenu({
+		selector: '.context-menu-twelve',
+		callback: function (key, options) {
+			let m = "clicked: " + key;
+
+			let newItem = {};   //create object
+			newItem.name = key;
+			currentList.items.push(newItem);
+			console.info(currentList);
+
+			drawItems();
+
+		},
+		items: {
+			"Napkins": { name: "Napkins" },
+			"Toothpicks": { name: "Toothpicks" },
+		}
+	});
 });
