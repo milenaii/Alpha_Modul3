@@ -11,7 +11,7 @@ a {
 
 body {
 	background-color: #eee;
-	color: #4e4544;
+	color: #b6ff00;
 	font: normal 16px sans-serif;
 }
 
@@ -31,19 +31,19 @@ body {
 
 header nav {
 	margin-right: 20px;
-	margin-left: 0px;
+	margin-left: 40px;
 	margin-bottom: 20px;
-	padding: 5px 5px;
+	padding: 0px 10px;
 	text-align: center;
 	list-style: none;
 	display: flex;
 	align-items: baseline;
 }
 
-	header nav li {
+	/*header nav li {
 		margin-right: 20px;
 		margin-bottom: 20px;
-	}
+	}*/
 
 /*header button {                    //слушай музика
 		background-color: #ef5350;
@@ -58,6 +58,7 @@ header nav {
 
 .main-and-sidebar-wrapper {
 	display: flex;
+	text-align:center;
 }
 
 .main {
@@ -98,7 +99,7 @@ header nav {
 }
 
 .sidebarRight {
-	border: 1px solid #a2a2a2;
+	/*border: 1px solid #a2a2a2;*/
 	padding: 15px;
 	flex: 1;
 }
@@ -164,8 +165,14 @@ li {
 	text-decoration: line-through;
 }
 
-.context-menu-one {
+/*.context-menu-one {
 	margin: auto;
 	text-align: center;
 	padding: 100px;
 }
+.context-menu-one {
+	margin: auto;
+	text-align: center;
+	padding: 100px;
+}*/
+
