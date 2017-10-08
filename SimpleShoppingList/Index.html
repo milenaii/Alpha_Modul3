@@ -1,0 +1,101 @@
+﻿<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ShoppingList</title>
+	<link href="styles.css" rel="stylesheet" />
+	<link rel="stylesheet" type="text/css" href="flexbox-layout.css">
+	<script src="Scripts/jquery-3.2.1.min.js"></script>
+	<script src="Scripts/app.js"></script>
+</head>
+<body>
+	<div class="container">
+		<header>
+			<nav>
+				<a href="#"><h2>Shopping in ebag</h2></a>
+			</nav>
+			<a><h1>Create Your New Shopping List</h1></a>
+
+		</header>
+
+		<div class="main-and-sidebar-wrapper">
+			<aside class="sidebarLeft">
+				<h2>Categories</h2>
+
+				<ul>
+					<li>
+						<span class="context-menu-one" style="border:solid 1px black; padding:5px;">Vegetables</span>
+					</li>
+				</ul>
+
+				<!--<ul>
+					<li>Fruits</li>
+					<li>Vegetables</li>
+					<li>Bread</li>
+					<li>Meat</li>
+					<li>Sausages</li>
+					<li>Milk Product</li>
+					<li>Nuts</li>
+					<li>Beverages</li>
+					<li>Sweets</li>
+					<li>Coffee and Tea</li>
+				</ul>-->
+
+			</aside>
+
+			<section class="main">
+				<!--<h2>Create your new shopping List</h2>-->
+				<p>
+					<div id="createListDiv">
+						<!--this is our first vew-->
+						<h1> Enter your Shopping List Name</h1>
+						<input type="text" id="shoppingListName" placeholder="New List" />
+						<button onclick="createShoppingList()">Create</button>
+					</div>                                                           <!--to here-->
+					<div id="shoppingListDiv" style="display: none">
+						<!--this is our second vew-->
+						<h1 id="shoppingListTitle"> New List </h1>
+						<input id="newItemName" type="text" placeholder="New Item" />
+						<button onclick="addItem()">Add</button>
+						<ul id="shoppingListItems">
+							<li>Salad<button>D</button><button>C</button></li>
+							<li>Milk<button>D</button><button>C</button></li>
+							<li>Tomatoes<button>D</button><button>C</button></li>
+						</ul>
+					</div>
+
+				</p>
+				<img src="http://plevenzapleven.bg/wp-content/uploads/2014/05/21.05.hrana_.jpg">
+			</section>
+			<aside class="sidebarRight">
+				<h2>Receptions</h2>
+				<ul>
+					<li>Fruits</li>
+					<li>Vegetables</li>
+					<li>Bread</li>
+					<li>Meat</li>
+					<li>Sausages</li>
+					<li>Milk Product</li>
+					<li>Nuts</li>
+					<li>Beverages</li>
+					<li>Sweets</li>
+					<li>Coffee and Tea</li>
+				</ul>
+			</aside>
+
+		</div>
+		<footer>
+			<h2>2017 Sofia MI Telerik Academy Alpha </h2>
+			<h3> All rights reserved</h3>
+		</footer>
+	</div>
+
+
+
+
+
+
+
+</body>
+</html>
