@@ -29,23 +29,23 @@ body {
 	justify-content: space-between;
 }*/
 
-	header nav {
+header nav {
+	margin-right: 20px;
+	margin-left: 0px;
+	margin-bottom: 20px;
+	padding: 5px 5px;
+	text-align: center;
+	list-style: none;
+	display: flex;
+	align-items: baseline;
+}
+
+	header nav li {
 		margin-right: 20px;
-		margin-left: 0px;
 		margin-bottom: 20px;
-		padding: 5px 5px;
-		text-align: center;
-		list-style: none;
-		display: flex;
-		align-items: baseline;
 	}
 
-		header nav li {
-			margin-right: 20px;
-			margin-bottom: 20px;
-		}
-
-	/*header button {                    //слушай музика
+/*header button {                    //слушай музика
 		background-color: #ef5350;
 		border: none;
 		padding: 8px 25px;
@@ -72,7 +72,7 @@ body {
 	}
 
 	.main p {
-		margin-bottom: 50px;
+		margin-bottom: 40px;
 	}
 
 	.main img {
@@ -82,7 +82,7 @@ body {
 /* Sidebar */
 
 .sidebarLeft {
-	border: 1px solid #a2a2a2;
+	/*border: 1px solid #a2a2a2;*/
 	padding: 15px;
 	flex: 1;
 }
@@ -134,7 +134,7 @@ footer {
 /*simple shopping list*/
 
 body {
-	background-color: #e3996f;  /*blue*/       /*интересен ефект, ког се махне*/
+	background-color: #e3996f; /*blue*/ /*интересен ефект, ког се махне*/
 	font-family: Arial;
 	color: white;
 	text-align: center;
@@ -154,17 +154,18 @@ li {
 	padding: 5px;
 	margin-bottom: 5px;
 }
+
 	li button {
 		float: right;
 		margin: 0px 3px;
-			}
+	}
 
 .checked {
 	text-decoration: line-through;
 }
 
 .context-menu-one {
-	text-align: end;
-	padding: 60px;
+	margin: auto;
+	text-align: center;
+	padding: 100px;
 }
-
