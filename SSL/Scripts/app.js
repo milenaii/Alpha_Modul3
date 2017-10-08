@@ -24,6 +24,7 @@ function addItem() {
 	drawItems();
 }
 
+
 function drawItems() {
 	let $list = $("#shoppingListItems").empty();  //jquery element
 
@@ -33,7 +34,7 @@ function drawItems() {
 			.attr("id", "item_" + i); //attribute -> id, name, curIndex
 		//var $countBtn =
 		//	$("<button onclick='count(" + i + ")'>count</button>").appendTo($li);
-				let $deleteBtn =
+		let $deleteBtn =
 			$("<button onclick='deleteItem(" + i + ")'>Delete</button>").appendTo($li);
 		let $checkBtn =
 			$("<button onclick='checkItem(" + i + ")'>Check</button>").appendTo($li); //do not forget "'"!
@@ -68,7 +69,18 @@ $(function () {
 		selector: '.context-menu-one',
 		callback: function (key, options) {
 			let m = "clicked: " + key;
+
 			window.console && console.log(m) || alert(m);
+
+			//function addItemFromCategories() {
+				let newItem = {};   //create object
+				newItem.name = key;
+				currentList.items.push(newItem);
+				console.info(currentList);
+
+				drawItems();
+			//}
+
 		},
 		items: {
 			"potatoes": { name: "Potatoes" },
@@ -84,6 +96,7 @@ $(function () {
 			//}
 		}
 	});
+	
 	$('.context-menu-one').on('click', function (e) {
 		console.log('clicked', this);
 	})
