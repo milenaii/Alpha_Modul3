@@ -8,6 +8,11 @@ function createShoppingList() {
 	currentList.items = new Array();
 	//Web Service Call
 
+	showShoppingList();
+}
+	
+
+function showShoppingList() {
 	$("#shoppingListTitle").html(currentList.name);  // we want to change all html list
 	$("#shoppingListItems").empty(); //we want sen any items first
 
@@ -15,7 +20,17 @@ function createShoppingList() {
 
 	$("#createListDiv").hide();
 	$("#shoppingListDiv").show();
+	console.info("ready");
+
+	$("#newItemName").focus();   /* когато се зареди курсура да е там*/
+	$("#newItemName").keyup(function (event) {
+		if (event.keyCode == 13) {          /*  return*/
+			addItem();
+		}
+	});
+
 }
+
 
 function addItem() {
 	let newItem = {};   //create object
@@ -24,6 +39,7 @@ function addItem() {
 	console.info(currentList);
 
 	drawItems();
+	$("#newItemName").val("");  /*empty string*/
 }
 
 
@@ -59,8 +75,36 @@ function checkItem(index) {
 	}                                            //look style css -> .checked
 }
 
+function getShoppingListById(id){
+	console.info(id);
+
+	currentList.name = "Mock Shopping List";
+	currentList.items = [
+		{ name: "Milk" },
+		{ name: "Corn" },
+		{ name: "Strawberries" }
+	];
+
+	showShoppingList();
+	drawItems();
+}
+
+
 $(document).ready(function () {
 	console.info("ready");
+
+	$("#shoppingListName").focus();   /* когато се зареди курсура да е там*/
+	$("#shoppingListName").keyup(function (event) {
+		if (event.keyCode == 13) {          /*  return*/
+			createShoppingList();
+		}                   
+	});
+
+	let pageURL = window.location.href;
+	let idIndex = pageURL.indexOf("?id=");
+	if (idIndex != -1) {
+		getShoppingListById(pageURL.substring(idIndex + 4));
+	}
 });
 
 
