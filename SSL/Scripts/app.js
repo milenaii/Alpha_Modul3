@@ -1,4 +1,6 @@
-﻿//simple shopping list
+﻿'use strict'
+
+//simple shopping list
 let currentList = {};
 
 function createShoppingList() {
@@ -350,3 +352,9 @@ $(function () {
 		}
 	});
 });
+
+//$(".help-tip").hover(function () {
+//	$("#iframe_id").show();
+//	console.log('><L?K');
+//});
+
