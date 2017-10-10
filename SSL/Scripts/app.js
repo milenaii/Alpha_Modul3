@@ -26,6 +26,7 @@ function showShoppingList() {
 	$("#newItemName").keyup(function (event) {
 		if (event.keyCode == 13) {          /*  return*/
 			addItem();
+			const neshto = 4
 		}
 	});
 
@@ -66,13 +67,19 @@ function deleteItem(index) {
 	drawItems();                         // see the result
 }
 
+//this is closure- func return obj and he have access to this func promenlive
 function checkItem(index) {
+	let myvar = 3;
 	if ($("#item_" + index).hasClass("checked")) {     //if it is checked, when you push again C
 		$("#item_" + index).removeClass("checked");    // it must stand unchached
 	}
 	else {
 		$("#item_" + index).addClass("checked");    //add css class to that DOM elem
-	}                                            //look style css -> .checked
+	}
+
+	return {
+		objvar: myvar
+	}//look style css -> .checked
 }
 
 function getShoppingListById(id){
