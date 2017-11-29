@@ -1,0 +1,6 @@
+D:\Milena\CSharp\Alpha_Modul3\SQL\DemoCodeFirst\DemoCodeFirst.Models\bin\Debug\DemoCodeFirst.Models.dll
+D:\Milena\CSharp\Alpha_Modul3\SQL\DemoCodeFirst\DemoCodeFirst.Models\bin\Debug\DemoCodeFirst.Models.pdb
+D:\Milena\CSharp\Alpha_Modul3\SQL\DemoCodeFirst\DemoCodeFirst.Models\obj\Debug\DemoCodeFirst.Models.csprojResolveAssemblyReference.cache
+D:\Milena\CSharp\Alpha_Modul3\SQL\DemoCodeFirst\DemoCodeFirst.Models\obj\Debug\DemoCodeFirst.Models.csproj.CoreCompileInputs.cache
+D:\Milena\CSharp\Alpha_Modul3\SQL\DemoCodeFirst\DemoCodeFirst.Models\obj\Debug\DemoCodeFirst.Models.dll
+D:\Milena\CSharp\Alpha_Modul3\SQL\DemoCodeFirst\DemoCodeFirst.Models\obj\Debug\DemoCodeFirst.Models.pdb

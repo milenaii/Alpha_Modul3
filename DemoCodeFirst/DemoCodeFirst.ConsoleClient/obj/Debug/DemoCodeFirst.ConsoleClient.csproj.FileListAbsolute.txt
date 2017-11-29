@@ -1,0 +1,16 @@
+D:\Milena\CSharp\Alpha_Modul3\SQL\DemoCodeFirst\DemoCodeFirst.ConsoleClient\bin\Debug\DemoCodeFirst.ConsoleClient.exe.config
+D:\Milena\CSharp\Alpha_Modul3\SQL\DemoCodeFirst\DemoCodeFirst.ConsoleClient\bin\Debug\DemoCodeFirst.ConsoleClient.exe
+D:\Milena\CSharp\Alpha_Modul3\SQL\DemoCodeFirst\DemoCodeFirst.ConsoleClient\bin\Debug\DemoCodeFirst.ConsoleClient.pdb
+D:\Milena\CSharp\Alpha_Modul3\SQL\DemoCodeFirst\DemoCodeFirst.ConsoleClient\bin\Debug\DemoCodeFirst.dll
+D:\Milena\CSharp\Alpha_Modul3\SQL\DemoCodeFirst\DemoCodeFirst.ConsoleClient\bin\Debug\DemoCodeFirst.Models.dll
+D:\Milena\CSharp\Alpha_Modul3\SQL\DemoCodeFirst\DemoCodeFirst.ConsoleClient\bin\Debug\EntityFramework.dll
+D:\Milena\CSharp\Alpha_Modul3\SQL\DemoCodeFirst\DemoCodeFirst.ConsoleClient\bin\Debug\EntityFramework.SqlServer.dll
+D:\Milena\CSharp\Alpha_Modul3\SQL\DemoCodeFirst\DemoCodeFirst.ConsoleClient\bin\Debug\DemoCodeFirst.Models.pdb
+D:\Milena\CSharp\Alpha_Modul3\SQL\DemoCodeFirst\DemoCodeFirst.ConsoleClient\bin\Debug\DemoCodeFirst.pdb
+D:\Milena\CSharp\Alpha_Modul3\SQL\DemoCodeFirst\DemoCodeFirst.ConsoleClient\bin\Debug\DemoCodeFirst.dll.config
+D:\Milena\CSharp\Alpha_Modul3\SQL\DemoCodeFirst\DemoCodeFirst.ConsoleClient\bin\Debug\EntityFramework.xml
+D:\Milena\CSharp\Alpha_Modul3\SQL\DemoCodeFirst\DemoCodeFirst.ConsoleClient\bin\Debug\EntityFramework.SqlServer.xml
+D:\Milena\CSharp\Alpha_Modul3\SQL\DemoCodeFirst\DemoCodeFirst.ConsoleClient\obj\Debug\DemoCodeFirst.ConsoleClient.csprojResolveAssemblyReference.cache
+D:\Milena\CSharp\Alpha_Modul3\SQL\DemoCodeFirst\DemoCodeFirst.ConsoleClient\obj\Debug\DemoCodeFirst.ConsoleClient.csproj.CoreCompileInputs.cache
+D:\Milena\CSharp\Alpha_Modul3\SQL\DemoCodeFirst\DemoCodeFirst.ConsoleClient\obj\Debug\DemoCodeFirst.ConsoleClient.exe
+D:\Milena\CSharp\Alpha_Modul3\SQL\DemoCodeFirst\DemoCodeFirst.ConsoleClient\obj\Debug\DemoCodeFirst.ConsoleClient.pdb
