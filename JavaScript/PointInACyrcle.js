@@ -9,5 +9,5 @@ function solve (arg){
     else{
         console.log(("no" + " " + dist.toFixed(2) ))
     }
-    }
+}
 // solve(['-2', '0'])
